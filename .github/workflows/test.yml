@@ -90,7 +90,7 @@ jobs:
       - name: Fetch additional packages
         run: |
           sudo apt-get update
-          sudo apt-get install fdisk gdisk qemu-user-static libarchive-tools tar qemu qemu-utils
+          sudo apt-get install fdisk gdisk qemu-user-static libarchive-tools tar qemu-system qemu-utils
 
       - name: Install Packer
         uses: hashicorp-contrib/setup-packer@v3
